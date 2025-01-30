@@ -1,4 +1,5 @@
 use std::any::type_name;
+use std::io;
 
 fn print_type<T>(_: &T) {
     println!("Type: {}", type_name::<T>());
@@ -112,11 +113,83 @@ fn main() {
     let heart_eyed_cat = '😻';
     println!("c:{c}, z:{z}, heart_eyed_cat:{heart_eyed_cat}");
 
+    //Quiz
     // let x : u8 = 0;
     // lex x = x - 1;
     // println!("x:{x}");
 
-    let x: fsize = 2.0;
+    // let x: fsize = 2.0;
 
-    println!("{x}");
+    // println!("{x}");
+
+    //Compound Types
+    //The Tuple Type
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let (x, y, z) = tup;
+    println!("The value of y is: {y}");
+
+    let x: (i32, f64, u8) = (500, 6.4, 1);
+    let five_hundred = x.0;
+    let six_point_four = x.1;
+    let one = x.2;
+    println!("(x.0:{five_hundred}, x.1:{six_point_four}, x.2:{one})");
+
+    let mut x: (i32, i32) = (1, 2);
+    x.0 = 0;
+    x.1 += 5;
+    println!("x.0:{}", x.0);
+    // how to print tuple element like Python way?
+    // println!("x.0:{x.0}");
+    println!("x:{x:?}");
+    println!("x:{x:#?}");
+
+
+    //The Array Type
+    //vector in Chapter 8
+    let a = [1, 2, 3, 4, 5];
+    println!("a:{a:?}");
+    let months = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
+    println!("months:{months:?}");
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    println!("a:{a:?}");
+    let a = [3; 5];
+    println!("a:{a:?}");
+
+    //Accessing Array Elements
+    let a = [1, 2, 3, 4, 5];
+    println!("a:{a:?}");
+
+    let first = a[0];
+    let second = a[1];
+    println!("first:{first}");
+    println!("second:{second}");
+
+    //Invalid Array Element Access
+    //Chapter 9 discusses more of Rust’s error handling and how you can write readable, safe code that neither panics nor allows invalid memory access.
+    let a = [1, 2, 3, 4, 5];
+    println!("Please enter an array index.");
+    let mut index = String::new();
+
+    io::stdin()
+        .read_line(&mut index)
+        .expect("Failed to read line");
+
+    let index: usize = index
+        .trim()
+        .parse()
+        .expect("Index entered was not a number");
+
+    let element = a[index];
+    println!("The value of the element at index {index} is: {element}");
+
+    //Quiz
+    //Question 1
+    let message = "The temperature today is:";
+    let x = [message, 100];
+    println!("{} {}", x[0], x[1]);
+    //Question 2
+    let t = ([1; 2], [3; 4]);
+    let (a, b) = t;
+    println!("{}", a[0] + t.1[0]);
 }
