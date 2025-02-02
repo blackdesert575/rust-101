@@ -1,4 +1,5 @@
 use std::any::type_name;
+// use std::process::exit;
 
 fn print_type<T>(_: &T) {
     println!("Type: {}", type_name::<T>());
@@ -96,7 +97,107 @@ fn main() {
     // println!("{}",x);
 
     //Question 2
-    let x = 1;
-    let y = if x { 0 } else { 1 }; 
-    println!("{y}");        
+    // let x = 1;
+    // let y = if x { 0 } else { 1 }; 
+    // println!("{y}");
+
+
+    //Repetition with Loops
+    // loop
+    // loop {
+    //     println!("again!");
+    // }
+
+    //Returning Values from Loops
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            break counter * 2;
+            // return counter * 2;
+        }
+    };
+    // return counter * 2;
+    println!("The result is {result}");
+
+    //Loop Labels to Disambiguate Between Multiple Loops
+    let mut count = 0;
+    'counting_up: loop {
+        println!("count = {count}");
+        let mut remaining = 10;
+
+        loop {
+            println!("remaining = {remaining}");
+            if remaining == 9 {
+                break;
+            }
+            if count == 2 {
+                break 'counting_up;
+            }
+            remaining -= 1;
+        }
+
+        count += 1;
+    }
+    println!("End count = {count}");
+
+    //Conditional Loops with while
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{number}!");
+
+        number -= 1;
+    }
+
+    println!("LIFTOFF!!!");
+
+    //Looping Through a Collection with for
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    while index < 5 {
+        println!("the value is: {}", a[index]);
+
+        index += 1;
+    }
+
+        let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("the value is: {element}");
+    }
+
+    //rev, to reverse the range:
+    for number in (1..4).rev() {
+        println!("{number}!");
+    }
+    println!("LIFTOFF!!!");
+
+    //Quiz
+    //Question 1
+
+    let mut x = 0;
+    'a: loop {
+        x += 1;
+        'b: loop {
+            if x > 10 {
+                continue 'a;
+            } else {
+                break 'b;
+            }      
+        }
+        break;       
+    }
+    // exit;
+    //Question 2
+
+    let a = [5; 10];
+    let mut sum = 0;
+    for x in a {
+        sum += x;
+    }
+    println!("{sum}");    
 }
