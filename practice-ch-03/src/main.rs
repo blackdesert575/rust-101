@@ -42,6 +42,59 @@ fn convert_temperature(input: &str) -> Result<String, &'static str> {
     Ok(result)
 }
 
+// Generate the nth Fibonacci number.
+fn fibonacci_iterative(n: u32) -> u64 {
+    if n <= 1 {
+        return n as u64;
+    }
+
+    let mut a: u64 = 0;
+    let mut b: u64 = 1;
+
+    for _ in 2..=n {
+        let temp = a + b;
+        a = b;
+        b = temp;
+    }
+
+    b
+}
+
+// Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” taking advantage of the repetition in the song.
+const DAYS: [&str; 12] = [
+    "first", "second", "third", "fourth", "fifth", "sixth", 
+    "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"
+];
+
+const GIFTS: [&str; 12] = [
+    "A partridge in a pear tree",
+    "Two turtle doves",
+    "Three French hens",
+    "Four calling birds",
+    "Five golden rings",
+    "Six geese a-laying",
+    "Seven swans a-swimming",
+    "Eight maids a-milking",
+    "Nine ladies dancing",
+    "Ten lords a-leaping",
+    "Eleven pipers piping",
+    "Twelve drummers drumming"
+];
+
+fn print_lyrics() {
+    for day in 0..12 {
+        println!("\nOn the {} day of Christmas my true love sent to me:", DAYS[day]);
+
+        for gift in (0..=day).rev() {
+            if gift == 0 && day != 0 {
+                println!("And {}", GIFTS[gift].to_lowercase());
+            } else {
+                println!("{}", GIFTS[gift]);
+            }
+        }
+    }
+}
+
 fn main() {
     println!("請輸入溫度（格式：25.7°C 或 77.9°F）：");
 
@@ -52,7 +105,9 @@ fn main() {
         Ok(result) => println!("轉換結果：{}", result),
         Err(err) => println!("錯誤：{}", err),
     }
-}
 
-// Generate the nth Fibonacci number.
-// Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” taking advantage of the repetition in the song.
+    let n = 50;
+    println!("The {}th Fibonacci number is: {}", n, fibonacci_iterative(n));
+
+    print_lyrics();    
+}
