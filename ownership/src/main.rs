@@ -215,19 +215,57 @@
 // let c: i32 = *r2;    // so only one dereference is needed to read it
 // }
 
-fn main()  {
-let x: Box<i32> = Box::new(-1);
-let x_abs1 = i32::abs(*x); // explicit dereference
-let x_abs2 = x.abs();      // implicit dereference
-assert_eq!(x_abs1, x_abs2);
+// fn main()  {
+// let x: Box<i32> = Box::new(-1);
+// let x_abs1 = i32::abs(*x); // explicit dereference
+// let x_abs2 = x.abs();      // implicit dereference
+// assert_eq!(x_abs1, x_abs2);
 
-let r: &Box<i32> = &x;
-let r_abs1 = i32::abs(**r); // explicit dereference (twice)
-let r_abs2 = r.abs();       // implicit dereference (twice)
-assert_eq!(r_abs1, r_abs2);
+// let r: &Box<i32> = &x;
+// let r_abs1 = i32::abs(**r); // explicit dereference (twice)
+// let r_abs2 = r.abs();       // implicit dereference (twice)
+// assert_eq!(r_abs1, r_abs2);
 
-let s = String::from("Hello");
-let s_len1 = str::len(&s); // explicit reference
-let s_len2 = s.len();      // implicit reference
-assert_eq!(s_len1, s_len2);
+// let s = String::from("Hello");
+// let s_len1 = str::len(&s); // explicit reference
+// let s_len2 = s.len();      // implicit reference
+// assert_eq!(s_len1, s_len2);
+// }
+
+
+// Rust Avoids Simultaneous Aliasing and Mutation
+// fn main() {
+// let mut v: Vec<i32> = vec![1, 2, 3];
+// v.push(4);
+// }
+
+fn main() {
+    // let mut s = String::from("hello");
+    let  s = String::from("hello");
+
+    let r1 = &s; // 不可變借用
+    let r2 = &s; // 不可變借用
+    // let r3 = &mut s; // ❌ 錯誤：嘗試可變借用
+
+    // println!("{}, {}, and {}", r1, r2, r3);
+    println!("{}, {}", r1, r2);
 }
+
+
+// fn main() {
+//     let mut s = String::from("hello");
+
+//     let r1 = &s;
+//     let r2 = &s;
+//     println!("{} and {}", r1, r2); // ✅ 這裡 r1 和 r2 的作用範圍結束
+
+//     let r3 = &mut s; // ✅ 這裡才取得可變借用
+//     println!("{}", r3);
+// }
+
+// fn main() {
+//     let mut s = String::from("hello");
+
+//     let r = &mut s; // ✅ 只有可變借用
+//     println!("{}", r);
+// }
