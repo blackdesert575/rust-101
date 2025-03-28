@@ -1,0 +1,10 @@
+{
+    "Basic": {
+        "solve_me_first": "Done",
+        "simple_array_sum": "In Progress",
+        "compare_the_triplets": "To Do"
+    },
+    "Intermediate": {
+        "arrays_ds": "To Do"
+    }
+}
