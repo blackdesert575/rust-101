@@ -1,5 +1,16 @@
 # rust-101
-rust-101 for learning Rust from scratch and practice
+rust-101 for one who want to learn Rust from scratch and practice more.
+
+## to-do-list
+
+* 調整自學行程/rust-101目錄結構
+
+🎯 建議優先順序（若要先精熟一門語言）
+若你未來想改善 Python 效能瓶頸 ➜ 先學 Rust
+
+若你想開發小型工具/部署用 CLI ➜ 先學 Golang
+
+若你想精通 DevOps / K8s Operator ➜ 先 Golang，後 Rust
 
 ## Dir Layouts
 
