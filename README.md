@@ -132,6 +132,7 @@ rust-101/
 
 ## Docs/Guides/Tips/MISC/...etc
 
+* [rust-lang.github.io/rustup](https://rust-lang.github.io/rustup/index.html)
 * [github.com/plabayo/learn-rust-101](https://rust-lang.guide/intro/index.html)
 * [Learn Rust](https://www.rust-lang.org/learn)
   * [the_book: The Rust Programming Language](https://rust-book.cs.brown.edu/)
