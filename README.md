@@ -135,6 +135,7 @@ rust-101/
 * [github.com/plabayo/learn-rust-101](https://rust-lang.guide/intro/index.html)
 * [Learn Rust](https://www.rust-lang.org/learn)
   * [the_book: The Rust Programming Language](https://rust-book.cs.brown.edu/)
+    * [github.com/cognitive-engineering-lab/rust-book/tree/main](https://github.com/cognitive-engineering-lab/rust-book/tree/main)
     * [rust-book.cs.brown.edu/ch04-02-references-and-borrowing.html](https://rust-book.cs.brown.edu/ch04-02-references-and-borrowing.html)
   * [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
 * exercism
