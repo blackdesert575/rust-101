@@ -1,5 +1,5 @@
 # rust-101
-rust-101 for one who want to learn Rust from scratch and practice more.
+rust-101 for one who want to learn Rust with AI(ChatGPI...etc)/any sources from scratch and practice more.
 
 ## to-do-list
 
@@ -29,7 +29,7 @@ rust-101 for one who want to learn Rust from scratch and practice more.
 
 ---
 
-## 📘 Rust 自學進度（4 週規劃）
+## 📘 Rust 自學進度
 
 ### ✅ Week 1：Ownership 完整練習
 - 📖 學習：Chapter 4
