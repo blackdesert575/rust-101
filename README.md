@@ -135,9 +135,11 @@ rust-101/
 * [rust-lang.github.io/rustup](https://rust-lang.github.io/rustup/index.html)
 * [github.com/plabayo/learn-rust-101](https://rust-lang.guide/intro/index.html)
 * [Learn Rust](https://www.rust-lang.org/learn)
-  * [the_book: The Rust Programming Language](https://rust-book.cs.brown.edu/)
-    * [github.com/cognitive-engineering-lab/rust-book/tree/main](https://github.com/cognitive-engineering-lab/rust-book/tree/main)
-    * [rust-book.cs.brown.edu/ch04-02-references-and-borrowing.html](https://rust-book.cs.brown.edu/ch04-02-references-and-borrowing.html)
+  * the_book: The Rust Programming Language
+    * The Rust Programming Language: Experimental Edition
+      * [github.com/cognitive-engineering-lab/rust-book](https://github.com/cognitive-engineering-lab/rust-book)
+      * [github.com/cognitive-engineering-lab/rust-book/tree/main](https://github.com/cognitive-engineering-lab/rust-book/tree/main)
+      * [rust-book.cs.brown.edu/ch04-02-references-and-borrowing.html](https://rust-book.cs.brown.edu/ch04-02-references-and-borrowing.html)
   * [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
 * exercism
   * [github.com/exercism](https://github.com/exercism)
@@ -145,6 +147,8 @@ rust-101/
 * leetcode
 * hackerrank
 * codility
+* Web
+  * [docs.rs/reqwest/latest/reqwest/](https://docs.rs/reqwest/latest/reqwest/)
 
 ## Command Line App
 
