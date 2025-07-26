@@ -144,9 +144,12 @@ rust-101/
 * exercism
   * [github.com/exercism](https://github.com/exercism)
   * [exercism](https://exercism.org/)
+* [docs.rs/axum/latest/axum/](https://docs.rs/axum/latest/axum/)
 * leetcode
 * hackerrank
 * codility
+* bastion-host
+  * [github.com/warp-tech/warpgate](https://github.com/warp-tech/warpgate)
 * Web
   * [docs.rs/reqwest/latest/reqwest/](https://docs.rs/reqwest/latest/reqwest/)
 
