@@ -52,42 +52,6 @@ rust-101 for one who want to learn Rust with AI(ChatGPI...etc)/any sources from 
 
 ---
 
-### ✅ Week 3：Modules, Collections, Error Handling
-- 📖 學習：Chapter 7~9
-  - 模組系統、可見性
-  - Vec / HashMap
-  - `Result`, `unwrap`, 錯誤處理
-- 🛠 實作：
-  - `passwd-gen` 重構並加入錯誤處理邏輯
-  - 撰寫測試、嘗試拆分 library 模組
-
----
-
-### ✅ Week 4：Generics, Traits, Lifetimes
-- 📖 學習：Chapter 10~11
-  - 泛型、Trait Bounds
-  - Lifetime 限制與應用
-- 🛠 實作：
-  - 泛型邏輯加入 `poker/`
-  - 建立 `integration/sauce-man-rewrite/` 作為重構起點
-
----
-
-## 🧠 Week 5 起延伸：LeetCode 實作 + CLI 化
-
-每週安排：
-| 類別 | 項目 | 說明 |
-|------|------|------|
-| LeetCode | 1 題 | 以 Rust 撰寫資料結構 / 演算法題 |
-| 系統實作 | 2~4 天 | 將 LeetCode 題目 CLI 化工具（如：LRU Cache） |
-| 進階延伸 | 選配 | 將 CLI 工具升級為 API 服務（FastAPI / actix） |
-
-實作例子：
-- LRU Cache → `scripts/lru-cli/`
-- BST Traversal → `scripts/bst-cli/`
-
----
-
 ## 📁 rust-101 專案目錄建議調整
 ```
 rust-101/
@@ -114,21 +78,6 @@ rust-101/
 ```
 
 ---
-
-如需自動生成學習任務 README、建立 sandbox 模板、補充 LeetCode CLI 題庫，請聯絡 ChatGPT 😎
-
-## Dir Layouts
-
-```
-.
-├── online_judges
-├── passwd-gen
-├── poker
-├── scripts
-└── the_book
-
-5 directories
-```
 
 ## Docs/Guides/Tips/MISC/...etc
 
