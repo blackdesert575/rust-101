@@ -19,13 +19,13 @@ rust-101 for one who want to learn Rust with AI(ChatGPI...etc)/any sources from 
 ---
 
 ## 🎯 學習目標
+- 完成 Rust 基礎
 - 精通 Rust 記憶體模型與系統程式設計能力
-- 應用於現有 Python 專案（如：`sauce-man`, homelab script）效能重構
-- 完成 Rust 基礎後，逐步導入 LeetCode 資料結構實作 + CLI 化
+- 應用於現有專案（如：`sauce-man`, homelab）效能重構
 
 ## ⏰ 自學時間限制
 - 每週可投入時間：**3～5 天**
-- 每日最多投入時間：**4 小時**
+- 每日最多投入時間：**1 小時**
 
 ---
 
@@ -39,43 +39,6 @@ rust-101 for one who want to learn Rust with AI(ChatGPI...etc)/any sources from 
 - 🛠 練習：
   - 建立 `scripts/sandbox_ownership/`，重現錯誤情境與修正範例
   - 提取 `passwd-gen` 中可練習引用借用的邏輯片段
-
----
-
-### ✅ Week 2：Struct / Enum / Pattern Matching
-- 📖 學習：Chapter 5~6
-  - Struct, Method
-  - Enum, Pattern Matching
-- 🛠 實作：
-  - `poker/` 加入 Struct 與 Enum 表示邏輯
-  - 練習 match 的 CLI 工具 → `scripts/pattern_game/`
-
----
-
-## 📁 rust-101 專案目錄建議調整
-```
-rust-101/
-├── the_book/
-│   ├── chapter04_ownership/
-│   ├── chapter05_structs/
-│   ├── chapter06_enum/
-│   ├── chapter07_modules/
-│   └── ...
-├── tools/
-│   ├── passwd-gen/
-│   └── poker/
-├── scripts/
-│   ├── readme_gen/
-│   ├── sandbox_ownership/
-│   ├── pattern_game/
-│   └── lru-cli/
-├── integration/
-│   └── sauce-man-rewrite/
-└── online_judges/
-    ├── exercism/
-    ├── hackerrank/
-    └── leetcode/
-```
 
 ---
 
