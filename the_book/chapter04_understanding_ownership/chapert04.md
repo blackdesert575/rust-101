@@ -2,4 +2,5 @@
 
 ## Reading which part?
 
-* [rust-book.cs.brown.edu/ch04-03-fixing-ownership-errors.html](https://rust-book.cs.brown.edu/ch04-03-fixing-ownership-errors.html)
+* [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules)
+* [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#memory-and-allocation](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#memory-and-allocation)
