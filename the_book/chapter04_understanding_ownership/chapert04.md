@@ -5,3 +5,4 @@
 * [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules)
 * [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#memory-and-allocation](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#memory-and-allocation)
 * [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#variables-and-data-interacting-with-move](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#variables-and-data-interacting-with-move)
+* [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#scope-and-assignment](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#scope-and-assignment)
