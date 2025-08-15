@@ -44,28 +44,31 @@ rust-101 for one who want to learn Rust with AI(ChatGPI...etc)/any sources from 
 
 ## Docs/Guides/Tips/MISC/...etc
 
-* [Learn Rust](https://www.rust-lang.org/learn)
-  * the_book: The Rust Programming Language
-    * The Rust Programming Language: Experimental Edition
-      * [github.com/cognitive-engineering-lab/rust-book](https://github.com/cognitive-engineering-lab/rust-book)
-      * [github.com/cognitive-engineering-lab/rust-book/tree/main](https://github.com/cognitive-engineering-lab/rust-book/tree/main)
-      * [rust-book.cs.brown.edu/ch04-02-references-and-borrowing.html](https://rust-book.cs.brown.edu/ch04-02-references-and-borrowing.html)
-* Rust by Example
-  * [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
+* Books
+  * Beginning Rust: From Novice to Professional
+* online books  
+  * [Learn Rust](https://www.rust-lang.org/learn)
+    * the_book: The Rust Programming Language
+      * [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules)
+      * The Rust Programming Language: Experimental Edition
+        * [github.com/cognitive-engineering-lab/rust-book](https://github.com/cognitive-engineering-lab/rust-book)
+  * Rust by Example
+    * [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
 * [rust-lang.github.io/rustup](https://rust-lang.github.io/rustup/index.html)
 * [github.com/plabayo/learn-rust-101](https://rust-lang.guide/intro/index.html)
+* bastion-host
+  * warpgate
+    * [github.com/warp-tech/warpgate](https://github.com/warp-tech/warpgate)
+* Web
+  * [docs.rs/reqwest/latest/reqwest/](https://docs.rs/reqwest/latest/reqwest/)
+  * [docs.rs/axum/latest/axum/](https://docs.rs/axum/latest/axum/)
 * online coding
   * exercism
     * [github.com/exercism](https://github.com/exercism)
     * [exercism](https://exercism.org/)
   * leetcode
   * hackerrank
-  * codility
-* bastion-host
-  * [github.com/warp-tech/warpgate](https://github.com/warp-tech/warpgate)
-* Web
-  * [docs.rs/reqwest/latest/reqwest/](https://docs.rs/reqwest/latest/reqwest/)
-* [docs.rs/axum/latest/axum/](https://docs.rs/axum/latest/axum/)
+  * codility  
 
 ## Command Line App
 
