@@ -47,6 +47,10 @@ rust-101 for one who want to learn Rust with AI(ChatGPI...etc)/any sources from 
 ```shell
 rustc -V
 cargo new hello_world
+cargo run
+
+#compile with rustc
+rustc main.rs
 ```
 
 ## Docs/Guides/Tips/MISC/...etc
