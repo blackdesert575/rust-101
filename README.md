@@ -42,10 +42,17 @@ rust-101 for one who want to learn Rust with AI(ChatGPI...etc)/any sources from 
 
 ---
 
+## Quick Start
+
+```shell
+rustc -V
+cargo new hello_world
+```
+
 ## Docs/Guides/Tips/MISC/...etc
 
 * Books
-  * Beginning Rust: From Novice to Professional
+  * Beginning Rust: From Novice to Professional (BRFNTP)
 * online books  
   * [Learn Rust](https://www.rust-lang.org/learn)
     * the_book: The Rust Programming Language
