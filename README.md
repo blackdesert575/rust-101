@@ -51,6 +51,10 @@ cargo run
 
 #compile with rustc
 rustc main.rs
+
+#with scripts
+./scripts/rustc.sh BRFNTP/ch01/src/main.rs
+./main
 ```
 
 ## Docs/Guides/Tips/MISC/...etc
