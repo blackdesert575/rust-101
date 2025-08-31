@@ -53,6 +53,8 @@ rustc main.rs
 
 ### Rustlings
 
+* 00~02
+
 ```shell
 # Installation
 cargo install rustlings
