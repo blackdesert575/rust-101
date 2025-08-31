@@ -21,6 +21,7 @@ rustc main.rs
 * Modify rust-101 dir layout
 * Implementation plan
 * Rust self-study progress
+* Rust with any other languages(Python/Mojo/C/C++/Java/Golang/Perl/Javascript/Typescript)? (FFI/ABI/...etc)
 
 ---
 
@@ -50,6 +51,19 @@ rustc main.rs
 * 4.Understanding Ownership (skipping until we finish another parts will go back to here)
 * 5.Using Structs to Structure Related Data
 
+### Rustlings
+
+```shell
+# Installation
+cargo install rustlings
+# Initialization
+rustlings init
+# Moving into new directory
+cd rustlings
+# Starting Rustlings
+rustlings
+```
+
 ---
 
 ## Docs/Guides/Tips/MISC/...etc
@@ -63,10 +77,14 @@ rustc main.rs
       * [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules)
       * The Rust Programming Language: Experimental Edition
         * [github.com/cognitive-engineering-lab/rust-book](https://github.com/cognitive-engineering-lab/rust-book)
-* [rust-lang.github.io/rustup](https://rust-lang.github.io/rustup/index.html)
-* [github.com/plabayo/learn-rust-101](https://rust-lang.guide/intro/index.html)
+* Rustlings
+  * Small exercises to get you used to reading and writing Rust code - Recommended in parallel to reading the official Rust book 📚️
+  * [rustlings.rust-lang.org](https://rustlings.rust-lang.org/)
 * podcast
   * [rustacean-station.org](https://rustacean-station.org/)
+
+### MISC
+
 * bastion-host
   * warpgate
     * [github.com/warp-tech/warpgate](https://github.com/warp-tech/warpgate)
