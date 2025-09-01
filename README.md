@@ -56,6 +56,9 @@ rustc main.rs
 * 00~02
 
 ```shell
+# open 2 terminal window or using tools to make 2 or more terminal sessions
+
+# terminal window 1
 # Installation
 cargo install rustlings
 # Initialization
@@ -64,6 +67,10 @@ rustlings init
 cd rustlings
 # Starting Rustlings
 rustlings
+
+# terminal window 2
+# edit the *.rs file with your favorite coding editor(vim, neovim, vscode, nano...etc)
+vim intro1.rs
 ```
 
 ---
