@@ -17,7 +17,11 @@ fn main() {
     // Try a letter, try a digit (in single quotes), try a special character, try a character
     // from a different language than your own, try an emoji 😉
     // let your_character = '';
-
+    // let your_character = 'b';
+    // let your_character = '!';
+    // let your_character = '😉';
+    // let your_character = 'あ';
+    let your_character = '아';
     if your_character.is_alphabetic() {
         println!("Alphabetical!");
     } else if your_character.is_numeric() {
