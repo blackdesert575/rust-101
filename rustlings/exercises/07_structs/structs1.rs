@@ -13,6 +13,12 @@ struct UnitStruct;
 
 fn main() {
     // You can optionally experiment here.
+    let foo = ColorRegularStruct{
+        red: 77,
+        green: 88,
+        blue: 99
+    };
+    print!("{}", foo);
 }
 
 #[cfg(test)]
