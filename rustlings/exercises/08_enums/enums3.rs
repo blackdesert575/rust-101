@@ -46,11 +46,38 @@ impl State {
     fn process(&mut self, message: Message) {
         // TODO: Create a match expression to process the different message
         // variants using the methods defined above.
+        match message {
+            Message::Resize { width, height } => self.resize(width, height),
+            Message::Move(point) => self.move_position(point),
+            Message::Echo(str) => self.echo(str),
+            Message::ChangeColor(red, green, blue) => self.change_color(red, green, blue),
+            Message::Quit => self.quit()
+        }
     }
 }
 
 fn main() {
     // You can optionally experiment here.
+    let tmp = Message::Resize { width: 123, height: 456 };
+    println!("Make a tmp to practice match:\n");
+    match tmp {
+        Message::Resize { width: _ , height: _ } => println!("Match Resize: pass"),
+        Message::Move(_pos) => println!("Match Move: pass"),
+        Message::Echo(_str) => println!("Match Echo: pass"),
+        Message::ChangeColor(_r, _g, _b) => println!("Match ChangeColor: pass"),
+        Message::Quit => println!("Match Quit: pass")
+    }
+    println!("-------------------------------------------------------------------------------\n");
+    let pos = Point { x: 1, y: 2}; 
+    let tmp02 = Message::Move(pos);
+    println!("Make a tmp02 to practice match:\n");
+    match tmp02 {
+        Message::Resize { width: _ , height: _ } => println!("Match Resize: pass"),
+        Message::Move(_pos) => println!("Match Move: pass"),
+        Message::Echo(_str) => println!("Match Echo: pass"),
+        Message::ChangeColor(_r, _g, _b) => println!("Match ChangeColor: pass"),
+        Message::Quit => println!("Match Quit: pass")
+    }
 }
 
 #[cfg(test)]
