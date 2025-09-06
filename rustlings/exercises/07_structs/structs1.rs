@@ -1,3 +1,4 @@
+#[derive(Debug)]
 struct ColorRegularStruct {
     // TODO: Add the fields that the test `regular_structs` expects.
     // What types should the fields have? What are the minimum and maximum values for RGB colors?
@@ -18,7 +19,8 @@ fn main() {
         green: 88,
         blue: 99
     };
-    print!("{}", foo);
+    print!("Hey, we are here for print a struct: ColorRegularStruct here!\n");
+    print!("{:?}\n", foo);
 }
 
 #[cfg(test)]
