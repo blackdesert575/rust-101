@@ -1,17 +1,28 @@
 fn trim_me(input: &str) -> &str {
     // TODO: Remove whitespace from both ends of a string.
+    input.trim_matches(char::is_whitespace)
 }
 
 fn compose_me(input: &str) -> String {
     // TODO: Add " world!" to the string! There are multiple ways to do this.
+    (input.to_owned() + " world!").to_owned()
 }
 
 fn replace_me(input: &str) -> String {
     // TODO: Replace "cars" in the string with "balloons".
+    input.replace("cars", "balloons")
 }
 
 fn main() {
     // You can optionally experiment here.
+    let tmp = "   test";
+    println!("{tmp}");
+    let s = trim_me(tmp);
+    println!("{s}");
+    let tmp = "Hello";
+    println!("{tmp}");
+    let s = compose_me(tmp);
+    print!("{}", s);
 }
 
 #[cfg(test)]
