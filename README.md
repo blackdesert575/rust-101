@@ -24,6 +24,11 @@ rustc main.rs
 * Rust with any other languages(Python/Mojo/C/C++/Java/Golang/Perl/Javascript/Typescript)? (FFI/ABI/...etc)
 * The book 
   * string
+      * [doc.rust-lang.org/book/ch08-02-strings.html](https://doc.rust-lang.org/book/ch08-02-strings.html)
+      * [doc.rust-lang.org/rust-by-example/std/str.html](https://doc.rust-lang.org/rust-by-example/std/str.html)
+  * mod
+    * [doc.rust-lang.org/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html#re-exporting-names-with-pub-use](https://doc.rust-lang.org/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html#re-exporting-names-with-pub-use)
+    * [doc.rust-lang.org/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html#using-nested-paths-to-clean-up-large-use-lists](https://doc.rust-lang.org/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html#using-nested-paths-to-clean-up-large-use-lists)
 
 ---
 
@@ -43,15 +48,6 @@ rustc main.rs
 ### Rust by Example
 
 * [doc.rust-lang.org/rust-by-example](https://doc.rust-lang.org/rust-by-example/index.html)
-
-### Beginning Rust: From Novice to Professional (BRFNTP)
-
-* ch03 Naming Objects/Associating Names to Values
-
-### The book
-
-* 4.Understanding Ownership (skipping until we finish another parts will go back to here)
-* 5.Using Structs to Structure Related Data
 
 ### Rustlings
 
@@ -84,10 +80,7 @@ vim intro1.rs
 * Books
   * Beginning Rust: From Novice to Professional (BRFNTP)
   * [Learn Rust](https://www.rust-lang.org/learn)
-    * the_book: The Rust Programming Language
-      * [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules)
-      * [doc.rust-lang.org/book/ch08-02-strings.html](https://doc.rust-lang.org/book/ch08-02-strings.html)
-      * [doc.rust-lang.org/rust-by-example/std/str.html](https://doc.rust-lang.org/rust-by-example/std/str.html)
+    * [the_book: The Rust Programming Language](https://doc.rust-lang.org/book/)
       * The Rust Programming Language: Experimental Edition
         * [github.com/cognitive-engineering-lab/rust-book](https://github.com/cognitive-engineering-lab/rust-book)
     * Cargo
