@@ -22,13 +22,15 @@ rustc main.rs
 * Implementation plan
 * Rust self-study progress
 * Rust with any other languages(Python/Mojo/C/C++/Java/Golang/Perl/Javascript/Typescript)? (FFI/ABI/...etc)
+* The book 
+  * string
 
 ---
 
 ## Learning Goals
 - Rust basic
 - coding with any crates
-- refactoring or enhancemnet exist projects: [sauce-man](https://github.com/hong539/sauce-man), ansible, terraguant...etc
+- refactoring or enhancemnet exist projects: [sauce-man](https://github.com/blackdesert575/sauce-man), ansible, terraguant...etc
 
 ## Self learning timing
 - hours per each week for learning: 10 hours
@@ -84,8 +86,12 @@ vim intro1.rs
   * [Learn Rust](https://www.rust-lang.org/learn)
     * the_book: The Rust Programming Language
       * [doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules)
+      * [doc.rust-lang.org/book/ch08-02-strings.html](https://doc.rust-lang.org/book/ch08-02-strings.html)
+      * [doc.rust-lang.org/rust-by-example/std/str.html](https://doc.rust-lang.org/rust-by-example/std/str.html)
       * The Rust Programming Language: Experimental Edition
         * [github.com/cognitive-engineering-lab/rust-book](https://github.com/cognitive-engineering-lab/rust-book)
+    * Cargo
+      * [doc.rust-lang.org/cargo/getting-started/first-steps.html](https://doc.rust-lang.org/cargo/getting-started/first-steps.html)      
 * Rustlings
   * Small exercises to get you used to reading and writing Rust code - Recommended in parallel to reading the official Rust book 📚️
   * [rustlings.rust-lang.org](https://rustlings.rust-lang.org/)
@@ -94,6 +100,8 @@ vim intro1.rs
 
 ### MISC
 
+* qrcode
+  * [crates.io/crates/qrcode](https://crates.io/crates/qrcode)
 * bastion-host
   * warpgate
     * [github.com/warp-tech/warpgate](https://github.com/warp-tech/warpgate)
