@@ -8,18 +8,26 @@ use std::collections::HashMap;
 
 fn fruit_basket() -> HashMap<String, u32> {
     // TODO: Declare the hash map.
-    // let mut basket =
+    let mut basket = HashMap::new();
 
     // Two bananas are already given for you :)
     basket.insert(String::from("banana"), 2);
 
     // TODO: Put more fruits in your basket.
-
+    basket.insert(String::from("奇異果"), 5);
+    basket.insert(String::from("柿子"), 3);
+    basket.insert(String::from("火龍果"), 2);
+    basket.insert(String::from("芭樂"), 6);
+    // rustc --explain E0308
+    // expected `HashMap<String, u32>`, found `()`
+    // basket;
     basket
 }
 
 fn main() {
     // You can optionally experiment here.
+    let 籃子 = fruit_basket();
+    println!("{:?}", 籃子);
 }
 
 #[cfg(test)]
