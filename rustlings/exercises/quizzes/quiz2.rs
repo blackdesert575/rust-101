@@ -28,23 +28,63 @@ mod my_module {
 
     // TODO: Complete the function as described above.
     // pub fn transformer(input: ???) -> ??? { ??? }
+    // destructure input via for loop, if/else if/ 
+    // pub fn transformer(input: Vec<(String, Command)>) -> Vec<String>{
+    //     let mut output = Vec::new();
+    //     for (text, command) in input {
+    //         if let Command::Uppercase = command {
+    //             output.push(text.to_uppercase());
+    //         } else if let Command::Trim = command {
+    //             output.push(text.trim().to_string());
+    //         } else if let Command::Append(x) = command {
+    //             let mut new_text = text;
+    //             for _ in 0..x {
+    //                 new_text.push_str("bar");
+    //             }
+    //             output.push(new_text);
+    //         }
+    //     }
+    //     output
+    // }
+    // destructure input via match
     pub fn transformer(input: Vec<(String, Command)>) -> Vec<String>{
         let mut output = Vec::new();
         for (text, command) in input {
-            if let Command::Uppercase = command {
-                output.push(text.to_uppercase());
-            } else if let Command::Trim = command {
-                output.push(text.trim().to_string());
-            } else if let Command::Append(x) = command {
-                let mut new_text = text;
-                for _ in 0..x {
-                    new_text.push_str("bar");
+            match command {
+                Command::Uppercase => {
+                    output.push(text.to_uppercase());
                 }
-                output.push(new_text);
+                Command::Trim => {
+                    output.push(text.trim().to_string());
+                }
+                Command::Append(x) => {
+                    let mut text = text;
+                    for _ in 0..x {
+                        text.push_str("bar");
+                    }
+                    output.push(text);
+                }
             }
         }
         output
     }
+    // idiomatic version?
+    // pub fn transformer(input: Vec<(String, Command)>) -> Vec<String>{
+    //     input
+    //         .into_iter()
+    //         .map(|(text, command)| match command {
+    //             Command::Uppercase => text.to_uppercase(),
+    //             Command::Trim => text.trim().to_string(),
+    //             Command::Append(x) => {
+    //                 let mut result = text;
+    //                 for _ in 0..x {
+    //                     result.push_str("bar");
+    //                 }
+    //                 result
+    //             }
+    //         })
+    //         .collect()
+    // }
 }
 
 fn main() {
