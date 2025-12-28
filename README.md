@@ -3,6 +3,8 @@ rust-101 for one who want to learn Rust with AI(ChatGPI...etc)/any sources from 
 
 ## Quick Start
 
+* Beginning Rust: From Novice to Professional (BRFNTP)
+
 ```shell
 cd BRFNTP/ch01
 cargo run
@@ -13,6 +15,16 @@ rustc main.rs
 #with scripts
 ./scripts/rustc.sh BRFNTP/ch01/src/main.rs
 ./main
+```
+
+* Coding with Rustings and reading online book: The Rust Programming Language
+
+```shell
+#open terminal 1 for  check output
+cd rustlings
+rustlings
+
+#open terminal 2 for coding with Rust
 ```
 
 ## to-do-list
@@ -85,10 +97,13 @@ vim intro1.rs
   * Beginning Rust: From Novice to Professional (BRFNTP)
   * [Learn Rust](https://www.rust-lang.org/learn)
     * [the_book: The Rust Programming Language](https://doc.rust-lang.org/book/)
+      * [ch14-03-cargo-workspaces.html#creating-a-workspace](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html#creating-a-workspace)
       * The Rust Programming Language: Experimental Edition
         * [github.com/cognitive-engineering-lab/rust-book](https://github.com/cognitive-engineering-lab/rust-book)
     * Cargo
-      * [doc.rust-lang.org/cargo/getting-started/first-steps.html](https://doc.rust-lang.org/cargo/getting-started/first-steps.html)      
+      * [doc.rust-lang.org/cargo/getting-started/first-steps.html](https://doc.rust-lang.org/cargo/getting-started/first-steps.html)
+      * [workspaces](https://doc.rust-lang.org/cargo/reference/workspaces.html)
+      * [project-layout](https://doc.rust-lang.org/cargo/guide/project-layout.html)
 * Rustlings
   * Small exercises to get you used to reading and writing Rust code - Recommended in parallel to reading the official Rust book 📚️
   * [rustlings.rust-lang.org](https://rustlings.rust-lang.org/)
@@ -105,6 +120,9 @@ vim intro1.rs
 * Web
   * [docs.rs/reqwest/latest/reqwest/](https://docs.rs/reqwest/latest/reqwest/)
   * [docs.rs/axum/latest/axum/](https://docs.rs/axum/latest/axum/)
+* bot
+  * discord-bot
+    * [github.com/blackdesert575/sauce-man](https://github.com/blackdesert575/sauce-man)
 * online coding
   * exercism
     * [github.com/exercism](https://github.com/exercism)
