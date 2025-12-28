@@ -32,9 +32,16 @@ rustlings
 * Adjust my self-study schedule
 * Modify rust-101 dir layout
 * Implementation plan
+  * [sauce-man](https://github.com/blackdesert575/sauce-man)
 * Rust self-study progress
 * Rust with any other languages(Python/Mojo/C/C++/Java/Golang/Perl/Javascript/Typescript)? (FFI/ABI/...etc)
-* The book 
+* The book
+  * Review
+    * ch05: Using Structs to Structure Related Data
+    * ch06: Enums and Pattern Matching
+    * ch07: Packages, Crates, and Modules
+    * ch08: Common Collections
+    * ch10: Generic Types, Traits, and Lifetimes
   * hashmap
     - [ch08-03-hash-maps.html#updating-a-value-based-on-the-old-value](https://doc.rust-lang.org/book/ch08-03-hash-maps.html#updating-a-value-based-on-the-old-value)
   * string
@@ -51,7 +58,7 @@ rustlings
 ## Learning Goals
 - Rust basic
 - coding with any crates
-- refactoring or enhancemnet exist projects: [sauce-man](https://github.com/blackdesert575/sauce-man), ansible, terraguant...etc
+- refactoring exist projects: [sauce-man](https://github.com/blackdesert575/sauce-man), ansible, terraguant...etc
 
 ## Self learning timing
 - hours per each week for learning: 10 hours
