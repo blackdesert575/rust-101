@@ -125,11 +125,15 @@ vim intro1.rs
   * warpgate
     * [github.com/warp-tech/warpgate](https://github.com/warp-tech/warpgate)
 * Web
+  * [leptos.dev](https://leptos.dev/)
+  * [dioxuslabs.com](https://dioxuslabs.com/)
   * [docs.rs/reqwest/latest/reqwest/](https://docs.rs/reqwest/latest/reqwest/)
   * [docs.rs/axum/latest/axum/](https://docs.rs/axum/latest/axum/)
 * bot
   * discord-bot
     * [github.com/blackdesert575/sauce-man](https://github.com/blackdesert575/sauce-man)
+* Database
+  * [github.com/launchbadge/sqlx](https://github.com/launchbadge/sqlx)
 * online coding
   * exercism
     * [github.com/exercism](https://github.com/exercism)
